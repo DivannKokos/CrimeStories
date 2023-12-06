@@ -10,7 +10,7 @@ ideas = {
 			level = 5
 			modifier = {
 				conscription = 0.12
-				stability = -0.2
+				stability_factor = -0.2
 			}
 		}
 		limited_police = {
@@ -18,7 +18,7 @@ ideas = {
 			level = 4
 			modifier = {
 				conscription = 0.06
-				stability = -0.1
+				stability_factor = -0.1
 			}
 		}
 		normal_police = {
@@ -29,16 +29,16 @@ ideas = {
 			cost = 300
 			modifier = {
 				conscription = -0.015
-				stability = 0.025
-				war_support = 0.025
+				stability_factor = 0.025
+				war_support_factor = 0.025
 			}
 		}
 		police_state = {
 			cost = 450
 			modifier = {
 				conscription = -0.04
-				stability = -0.01
-				war_support = 0.05
+				stability_factor = -0.1
+				war_support_factor = 0.05
 			}
 		}
 	}
