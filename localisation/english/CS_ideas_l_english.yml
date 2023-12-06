@@ -6,10 +6,10 @@
  police_laws: "Police Laws"
  no_police: "Abolish the Police"
  limited_police: "Limited Police"
- normal_police: "Normal Police"
+ normal_police: "Normal Police"    #change
  wellfunded_police: "Well Funded Police"
  police_state: "Police State"
 
- execution_laws: "Execution Laws"
- execution_yes: "Execution Yes"
- execution_no: "Execution No"
+ execution_laws: "Execution Laws"	#change
+ execution_yes: "Execution Allowed"    #change
+ execution_no: "Execution Forbidden"    #change
