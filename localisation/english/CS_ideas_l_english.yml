@@ -10,6 +10,6 @@
  wellfunded_police: "Well Funded Police"
  police_state: "Police State"
 
- execution_laws: = "Execution Laws"
- execution_yes: = "Execution Yes"
+ execution_laws: "Execution Laws"
+ execution_yes: "Execution Yes"
  execution_no: "Execution No"
