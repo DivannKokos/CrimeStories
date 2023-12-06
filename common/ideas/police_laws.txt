@@ -5,28 +5,31 @@ ideas = {
 		use_list_view = yes
 
 		no_police = {
-			cost = 500
+			cost = 100
 			#removal_cost = -1
 			level = 5
 			modifier = {
-				conscription = 0.12
-				stability_factor = -0.2
+				conscription = 0.05
+				stability_factor = -0.06
+				war_support_factor = -0.05
 			}
 		}
 		limited_police = {
-			cost = 350
+			cost = 150
 			level = 4
 			modifier = {
-				conscription = 0.06
-				stability_factor = -0.1
+				conscription = 0.025
+				stability_factor = -0.03
+				war_support_factor = -0.025
 			}
 		}
 		normal_police = {
-			cost = 150
+			#cost = 150
 			level = 3
+			default = yes
 		}
 		wellfunded_police = {
-			cost = 300
+			cost = 250
 			modifier = {
 				conscription = -0.015
 				stability_factor = 0.025
@@ -36,14 +39,14 @@ ideas = {
 		police_state = {
 			cost = 450
 			modifier = {
-				conscription = -0.04
-				stability_factor = -0.1
+				conscription = -0.020
+				stability_factor = 0.05
 				war_support_factor = 0.05
+				}
 			}
 		}
-	}
 
-	execution_laws = {
+	execution_laws = { #todo
 		law = yes
 		use_list_view = yes
 
