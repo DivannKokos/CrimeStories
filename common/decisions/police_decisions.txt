@@ -1,0 +1,66 @@
+#AI CAN'T DO THESE DECISIONS!
+police_category = {
+    cut_the_fund = {
+		cost = 350
+		allowed = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+			}
+			else = {
+				always = no
+			}	
+		}
+        available = {
+			ROOT = {
+				NOT = {
+					has_idea = fund_the_police
+				}
+				NOT = {
+					has_idea = cut_the_fund
+				}
+        }
+	}
+		fire_only_once = no
+        #icon = 
+        days_remove = 180
+        complete_effect = {
+			add_ideas = cut_the_fund
+        }
+        #remove_effect = {
+        #}
+        #cancel_trigger = {
+        #}
+        #cancel_effect = {
+        #}
+    }
+
+	fund_the_police = {
+		cost = 300
+		allowed = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+			}
+			else = {
+				always = no
+			}	
+		}
+        available = {
+			ROOT = {
+				NOT = {
+					has_idea = fund_the_police
+				}
+				NOT = {
+					has_idea = cut_the_fund
+				}
+        }
+	}
+		days_remove = 180
+		complete_effect = {
+			add_ideas = fund_the_police
+		}
+	}
+}

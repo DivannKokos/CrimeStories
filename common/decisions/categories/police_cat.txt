@@ -1,0 +1,6 @@
+police_category = {
+	allowed = {
+		always = yes
+	}
+	priority = 9
+}
