@@ -1,0 +1,18 @@
+ideas = {
+	hidden_ideas = {
+		cut_the_fund = {
+			modifier = {
+				conscription = 0.05
+				stability_factor = -0.06
+				war_support_factor = -0.05
+			}
+		}
+		fund_the_police = {
+			modifier = {
+				conscription = -0.015
+				stability_factor = 0.025
+				war_support_factor = 0.025
+			}
+		}
+	}
+}
