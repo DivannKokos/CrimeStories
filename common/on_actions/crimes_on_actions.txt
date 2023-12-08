@@ -1,9 +1,13 @@
 on_actions = {
 	on_monthly = {
-		random_events = {
-			2 = generic_crimes.1 # random events can apparently accept news events? at least it seems to work.
-			2 = generic_crimes.2
-			2 = 0
+		random_events = { # we have chance of 14,28571428571429% for each event (or lack of, if id is 0)
+			1 = generic_crimes.1 # random events can apparently accept news events? at least it seems to work.
+			1 = generic_crimes.2
+			1 = generic_crimes.3
+			1 = generic_crimes.4
+			1 = generic_crimes.5
+			1 = generic_crimes.6
+			1 = 0
 		}
 	}
 }

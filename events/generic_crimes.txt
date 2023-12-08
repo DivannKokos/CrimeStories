@@ -1,19 +1,31 @@
 add_namespace = generic_crimes
 
 news_event = {
-	id = generic_crimes.1 # if you have the police
+	id = generic_crimes.1
 
 	title = {
-		text = generic_crimes.1.t
+		text = generic_crimes.1.t.a
 	}
+
+	title = {
+		text = generic_crimes.1.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
 	desc = {
-		text = generic_crimes.1.desc
+		text = generic_crimes.1.desc.a
+	}
+
+	desc = {
+		text = generic_crimes.1.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
 	}
 
 	trigger = {
-		NOT = {
-			has_idea = cut_the_fund
-		}
 		is_ai = no
 	}
 	is_triggered_only = yes
@@ -23,21 +35,46 @@ news_event = {
 	}
 	option = {
 		name = generic_crimes.1.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.1.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
 	}
 }
 
 news_event = {
-	id = generic_crimes.2 # if you do not have the police
+	id = generic_crimes.2
 
 	title = {
-		text = generic_crimes.2.t
+		text = generic_crimes.2.t.a
 	}
+
+	title = {
+		text = generic_crimes.2.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
 	desc = {
-		text = generic_crimes.2.desc
+		text = generic_crimes.2.desc.a
 	}
-	
+
+	desc = {
+		text = generic_crimes.2.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
 	trigger = {
-		has_idea = cut_the_fund
 		is_ai = no
 	}
 	is_triggered_only = yes
@@ -46,6 +83,213 @@ news_event = {
 		name = generic_crimes.2.a #we do not care
 	}
 	option = {
-		name = generic_crimes.2.b #we care, but we don't have the police (we kinda don't care?)
+		name = generic_crimes.2.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.2.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+}
+
+news_event = {
+	id = generic_crimes.3
+
+	title = {
+		text = generic_crimes.3.t.a
+	}
+
+	title = {
+		text = generic_crimes.3.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	desc = {
+		text = generic_crimes.3.desc.a
+	}
+
+	desc = {
+		text = generic_crimes.3.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	trigger = {
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.3.a #we do not care
+	}
+	option = {
+		name = generic_crimes.3.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.3.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+}
+
+news_event = {
+	id = generic_crimes.4
+
+	title = {
+		text = generic_crimes.4.t.a
+	}
+
+	title = {
+		text = generic_crimes.4.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	desc = {
+		text = generic_crimes.4.desc.a
+	}
+
+	desc = {
+		text = generic_crimes.4.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	trigger = {
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.4.a #we do not care
+	}
+	option = {
+		name = generic_crimes.4.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.4.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+}
+
+news_event = {
+	id = generic_crimes.5
+
+	title = {
+		text = generic_crimes.5.t.a
+	}
+
+	title = {
+		text = generic_crimes.5.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	desc = {
+		text = generic_crimes.5.desc.a
+	}
+
+	desc = {
+		text = generic_crimes.5.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	trigger = {
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.5.a #we do not care
+	}
+	option = {
+		name = generic_crimes.5.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.5.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+}
+
+news_event = {
+	id = generic_crimes.6
+
+	title = {
+		text = generic_crimes.6.t.a
+	}
+
+	title = {
+		text = generic_crimes.6.t.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	desc = {
+		text = generic_crimes.6.desc.a
+	}
+
+	desc = {
+		text = generic_crimes.6.desc.b
+		trigger = {
+			has_idea = cut_the_fund
+		}
+	}
+
+	trigger = {
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.6.a #we do not care
+	}
+	option = {
+		name = generic_crimes.6.b #we care
+		trigger = {
+			NOT = {
+				has_idea = cut_the_fund
+			}
+		}
+	}
+	option = {
+		name = generic_crimes.6.c #we care, but we don't have the police (so we kinda dont care?)
+		trigger = {
+			has_idea = cut_the_fund
+		}
 	}
 }
