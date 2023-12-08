@@ -1,0 +1,51 @@
+add_namespace = generic_crimes
+
+news_event = {
+	id = generic_crimes.1 # if you have the police
+
+	title = {
+		text = generic_crimes.1.t
+	}
+	desc = {
+		text = generic_crimes.1.desc
+	}
+
+	trigger = {
+		NOT = {
+			has_idea = cut_the_fund
+		}
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.1.a #we do not care
+	}
+	option = {
+		name = generic_crimes.1.b #we care
+	}
+}
+
+news_event = {
+	id = generic_crimes.2 # if you do not have the police
+
+	title = {
+		text = generic_crimes.2.t
+	}
+	desc = {
+		text = generic_crimes.2.desc
+	}
+	
+	trigger = {
+		has_idea = cut_the_fund
+		is_ai = no
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = generic_crimes.2.a #we do not care
+	}
+	option = {
+		name = generic_crimes.2.b #we care, but we don't have the police (we kinda don't care?)
+	}
+}
