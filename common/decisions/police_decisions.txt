@@ -2,15 +2,8 @@
 police_category = {
     cut_the_fund = {
 		cost = 350
-		allowed = {
-			if = {
-				limit = {
-					is_ai = no
-				}
-			}
-			else = {
-				always = no
-			}	
+		available = {
+			is_ai = no
 		}
         available = {
 			ROOT = {
@@ -38,15 +31,8 @@ police_category = {
 
 	fund_the_police = {
 		cost = 300
-		allowed = {
-			if = {
-				limit = {
-					is_ai = no
-				}
-			}
-			else = {
-				always = no
-			}	
+		available = {
+			is_ai = no
 		}
         available = {
 			ROOT = {
